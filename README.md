@@ -137,11 +137,4 @@ Both providers are registered at the root in main.dart using MultiProvider and l
 - iOS was not built or tested. The code is cross-platform but the submitted build targets Android only.
 - Pagination is not implemented. All records are rendered in the table. For production use with large datasets, server-side pagination would be required.
 
----
 
-## Known Limitations
-
-- No backend integration. All CRUD operations affect an in-memory list only.
-- No data persistence. Changes are lost on app restart.
-- No pagination on data tables.
-- iOS build not included in submission.
